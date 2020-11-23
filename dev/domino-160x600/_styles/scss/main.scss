@@ -1,0 +1,41 @@
+
+
+@import '../../../_common/styles/common.scss';
+@import '../../../_common/styles/dominos.scss';
+
+// .frame1{ opacity: 0; }
+// .frame2{ opacity: 0; }
+// .frame3{ opacity: 0; }
+// .frameEnd{ opacity: 1 }
+// .frame{ opacity: 1 }
+
+
+
+
+
+#banner{		
+	width: 160px;
+	height: 600px;	
+}
+.video{
+	@include pos(70, 0);
+}
+
+
+
+.frame1{
+	.bg{
+		height: 266px;
+		width: 100%;
+	}
+
+	.video{
+		@include pos-scaleXY(102, 266, -1, 1);
+	}
+
+	.bg{
+		@include pos(0, 0);
+
+	}
+
+}

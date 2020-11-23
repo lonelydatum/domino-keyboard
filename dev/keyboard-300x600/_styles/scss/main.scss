@@ -1,0 +1,124 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+.slot{
+	@include pos-scale(81, 196, 1);
+	.slot_ball{
+		@include pos-scale(136, 8, .5);
+		// @include pos-scale(137, 92, .5);
+		
+	}
+
+	.slot_handle{
+		transform-origin: 50% 100%;
+		
+		@include pos-scale(134, -15, .5);
+		
+		// @include pos-scaleXY(134, -7, .5, -.4);
+		
+	}	
+}
+
+
+
+
+
+
+
+#banner{	
+	width: 300px;
+	height: 600px;
+}
+
+.frame1{
+	@include pos(0, 0);
+}
+
+.frame2{
+	opacity: 1;
+	
+	@include pos(0, 0);
+	.time{
+		@include pos(39, 257);		
+		#time1{
+			@include pos-scale(0, 0, .5);		
+		}	
+		#time2{
+			@include pos-scale(35, 0, .5);		
+		}
+		#time3{
+			@include pos-scale(72, 0, .5);		
+		}
+		#time4{
+			@include pos-scale(108, 0, .5);		
+		}
+
+	}
+
+	.to{
+		@include pos(219, 257);		
+		#to1{
+			@include pos-scale(0, 0, .5);		
+		}
+
+		#to2{
+			@include pos-scale(37, 0, .5);		
+		}
+	}
+	
+
+	.take{
+		@include pos(10, 292);		
+		#take1{
+			@include pos-scale(0, 0, .5);		
+		}
+		#take2{
+			@include pos-scale(37, 0, .5);		
+		}
+		#take3{
+			@include pos-scale(74, 0, .5);		
+		}
+		#take4{
+			@include pos-scale(110, 0, .5);		
+		}
+	}
+	
+	
+	
+
+	.a{
+		@include pos(193, 292);		
+		#a1{
+			@include pos-scale(0, 0, .5);			
+		}
+		
+	}
+
+	.break{
+		@include pos(65, 329);		
+		#break1{
+			@include pos-scale(0, 0, .5);		
+		}
+		#break2{
+			@include pos-scale(37, 0, .5);		
+		}
+		#break3{
+			@include pos-scale(73, 0, .5);		
+		}
+		#break4{
+			@include pos-scale(110, 0, .5);		
+		}
+		#break5{
+			@include pos-scale(146, 0, .5);		
+		}
+		#break6{
+			@include pos-scale(181, 0, .5);		
+		}
+	}
+
+
+	
+
+
+}

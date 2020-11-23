@@ -1,0 +1,27 @@
+
+.video{
+	width: 100%;
+	
+	@include pos(0, 0);
+	img{
+		opacity: 0;
+	}
+
+	img#video_1{
+		opacity: 1;
+	}
+
+}
+
+.frame1{
+	@include pos(0, 0);
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+	.bg{
+		width: 100%;
+		
+		@include pos(0, 0);
+		background-color: #154734;
+	}
+}

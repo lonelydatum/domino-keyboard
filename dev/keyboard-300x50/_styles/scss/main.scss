@@ -1,0 +1,113 @@
+
+
+@import '../../../_common/styles/common.scss';
+
+
+
+
+#banner{	
+	width: 300px;
+	height: 50px;
+	// overflow: visible;
+}
+
+.t1a{
+	@include pos-scale(0, 50, .5);	
+}
+
+.logo{
+	opacity: 0;
+}
+
+.txt_end{
+	@include pos-scale(299, 0, .5);	
+}
+
+
+.frame1{
+	opacity: 1;
+	
+	@include pos(0, 0);
+	.time{
+		@include pos(39, 7);		
+		#time1{
+			@include pos-scale(0, 0, .5);		
+		}	
+		#time2{
+			@include pos-scale(36, 0, .5);		
+		}
+		#time3{
+			@include pos-scale(71, 0, .5);		
+		}
+		#time4{
+			@include pos-scale(108, 0, .5);		
+		}
+
+	}
+
+	.to{
+		@include pos(220, 7);		
+		#to1{
+			@include pos-scale(0, 0, .5);		
+		}
+
+		#to2{
+			@include pos-scale(36, 0, .5);		
+		}
+	}
+	
+
+	.take{
+		@include pos(12, 44);		
+		#take1{
+			@include pos-scale(0, 0, .5);		
+		}
+		#take2{
+			@include pos-scale(35, 0, .5);		
+		}
+		#take3{
+			@include pos-scale(71, 0, .5);		
+		}
+		#take4{
+			@include pos-scale(108, 0, .5);		
+		}
+	}
+	
+	
+	
+
+	.a{
+		@include pos(193, 44);		
+		#a1{
+			@include pos-scale(0, 0, .5);			
+		}
+		
+	}
+
+	.break{
+		@include pos(66, 79);		
+		#break1{
+			@include pos-scale(0, 0, .5);		
+		}
+		#break2{
+			@include pos-scale(35, 0, .5);		
+		}
+		#break3{
+			@include pos-scale(71, 0, .5);		
+		}
+		#break4{
+			@include pos-scale(108, 0, .5);		
+		}
+		#break5{
+			@include pos-scale(144, 0, .5);		
+		}
+		#break6{
+			@include pos-scale(181, 0, .5);		
+		}
+	}
+
+
+	
+
+
+}
