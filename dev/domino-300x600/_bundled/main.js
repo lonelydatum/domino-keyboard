@@ -122,7 +122,8 @@ function start() {
 
 	(0, _commonJsCommonJs.setEndFrame)(bgHeight);
 
-	(0, _commonJsDomJs.domInit)(532 / 2, -1);
+	(0, _commonJsDomJs.domInit)(532 / 2, -1.02);
+	tl.set(".video", { x: -3 });
 
 	(0, _commonJsCommonJs.frame)(".frame1");
 

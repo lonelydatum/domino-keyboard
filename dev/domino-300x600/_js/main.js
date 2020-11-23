@@ -12,7 +12,8 @@ function start(){
 	setEndFrame(bgHeight)
 
 	
-	domInit(532/2, -1)
+	domInit(532/2, -1.02)
+	tl.set(".video", {x:-3})
 	
 	
 	frame(".frame1")	
